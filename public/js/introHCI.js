@@ -40,6 +40,6 @@ function generateDetailsHTML(title, date, img, desc) {
 	title = `<h3>${title}</h3>`;
 	date = `<h4>${date}</h4>>`;
 	img = `<img src="${img}" style="width: 50%; float: left; margin: 3%;" alt="foo">`;
-	desc = `<p style="width: 90%;">${desc}</p>>`;
+	desc = `<p style="width: 90%;">${desc}</p>`;
 	return title + date + img + desc;
 }
